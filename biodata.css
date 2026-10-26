@@ -1,0 +1,394 @@
+body{
+    background-image:url(https://media.craiyon.com/2025-10-20/xvFX3w5IRyK4u5Uey0DRVg.webp);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  background-color: rgb(248, 109, 160);
+  padding: 8px 22px;
+  display: inline-block;
+  border-radius: 30px;
+  text-shadow:
+    -1px -1px 0 rgba(0,0,0,0.5),
+     1px -1px 0 rgba(0,0,0,0.5),
+    -1px  1px 0 rgba(0,0,0,0.5),
+     1px  1px 0 rgba(0,0,0,0.5);
+  transition: transform 0.25s ease;
+}
+
+h2:hover{
+  transform: scale(1.06) rotate(-1deg);
+}
+
+h1 {
+  font-family: 'Baloo 2', cursive;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1.5px #000000;
+  color: rgb(255, 244, 150);
+  background-color: transparent;
+  padding: 12px 24px;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 0px #000;
+}
+
+.top-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+img.foto{
+    width:220px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 5px solid white;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img.foto:hover{
+    transform: rotate(-2deg) scale(1.04);
+    box-shadow: 0 10px 26px rgba(0,0,0,0.4);
+}
+
+div.info{
+    background-color: rgba(250, 235, 215, 0.92);
+    width:380px;
+    max-width: 90%;
+    border-radius: 16px;
+    border: 3px solid rgb(248, 109, 160);
+    padding: 18px 26px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #2b2b26;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.info:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 12px 50px rgba(0,0,0,0.22);
+}
+
+p.makanan{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(248, 109, 160);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+div.makan-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+div.food-item{
+    background-color: rgba(250, 235, 215, 0.92);
+    padding: 10px 10px 12px;
+    border-radius: 16px;
+    border: 3px solid rgb(248, 109, 160);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+div.food-item:hover{
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+    border-color: rgb(242, 183, 5);
+}
+
+div.food-item p{
+    margin: 8px 0 0;
+    transition: color 0.25s ease;
+}
+
+div.food-item:hover p{
+    color: rgb(248, 109, 160);
+}
+
+.food-thumb{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img.foodimg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+div.food-item:hover img.foodimg{
+    transform: scale(1.15);
+}
+
+p.minatbakat{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(211, 124, 255);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+div.minat-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+div.minat-item{
+    background-color: rgba(250, 235, 215, 0.92);
+    padding: 10px 10px 12px;
+    border-radius: 16px;
+    border: 3px solid rgb(178, 75, 230);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+div.minat-item:hover{
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+    border-color: rgb(242, 183, 5);
+}
+
+div.minat-item p{
+    margin: 8px 0 0;
+    transition: color 0.25s ease;
+}
+
+div.minat-item:hover p{
+    color: rgb(161, 35, 224);
+}
+
+.minat-thumb{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img.minat{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+div.food-item:hover img.minat{
+    transform: scale(1.15);
+}
+
+p.organisasi{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(104, 255, 119);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+div.org-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+div.org-item{
+    background-color: rgba(250, 235, 215, 0.92);
+    padding: 10px 10px 12px;
+    border-radius: 16px;
+    border: 3px solid rgb(62, 230, 79);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: default;
+}
+
+div.org-item:hover{
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+    border-color: rgb(242, 183, 5);
+}
+
+div.org-item p{
+    margin: 8px 0 0;
+    transition: color 0.25s ease;
+}
+
+div.org-item:hover p{
+    color: rgb(13, 127, 24);
+}
+
+.org-thumb{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img.org{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+div.food-item:hover img.org{
+    transform: scale(1.15);
+}
+
+p.keahlian{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(255, 145, 77);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+div.skill-list{
+    background-color: rgba(250, 235, 215, 0.92);
+    border: 3px solid rgb(255, 145, 77);
+    border-radius: 16px;
+    width: 420px;
+    max-width: 90%;
+    margin: 10px auto 0;
+    padding: 20px 26px;
+    text-align: left;
+}
+
+div.skill p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 6px 0;
+}
+
+div.bar{
+    background-color: rgb(230, 220, 205);
+    border-radius: 20px;
+    height: 14px;
+    margin-bottom: 16px;
+}
+
+div.fill{
+    background-color: rgb(255, 145, 77);
+    border-radius: 20px;
+    height: 14px;
+}
+
+.carousel{
+    width: 90%;
+    max-width: 700px;
+    margin: 15px auto 0;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+p.tempatimpian{
+    font-family: 'Baloo 2', cursive;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(255, 147, 147);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+
+.tempat{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: jalan 20s linear infinite;
+}
+
+.carousel:hover .track{
+    animation-play-state: paused;
+}
+
+.tempati{
+    width: 180px;
+    background-color: rgba(250, 235, 215, 0.92);
+    border: 3px solid rgb(248, 109, 160);
+    border-radius: 16px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.tempati img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.tempati p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    margin: 8px 0 0;
+}
+
+@keyframes jalan{
+    from{translate:0;}
+    to{translate:-100%;}
+}
