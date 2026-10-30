@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Luar Negeri - Disneyland</title>
+  <link rel="stylesheet" href="sts.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="terkunci">
+        <!--Membuat Header-->
+        <div class="header">
+            <h1>TUGAS HTML & CSS</h1>
+        </div>
+        <!--Membuat Menu-->
+        <div class="topnav">
+                <a href="index.html">BIODATA</a>
+                <a href="table.html">TABLE</a>
+                <a href="list.html">LIST</a>
+                <a href="sts.html">STS</a>
+        </div>
+
+  <div class="pemuat" id="pemuat">
+    <div class="pemuat-isi">
+      <img class="gbr-memuat" src="loading.png" alt="">
+      <p class="pemuat-teks">Menyiapkan keajaiban</p>
+    </div>
+  </div>
+
+  <div class="panel-atur">
+    <button class="atur" id="saklarMode" type="button">🍓 Mode Siang</button>
+  </div>
+
+  <div class="langit" aria-hidden="true">
+    <span class="benda b1"><img class="gbr" src="elemen1-mawar.png" alt=""></span>
+    <span class="benda b2"><img class="gbr" src="elemen2-sepatu-kaca.png" alt=""></span>
+    <span class="benda b3"><img class="gbr" src="elemen3-kereta-labu.png" alt=""></span>
+    <span class="benda b4"><img class="gbr" src="elemen4-kerang.png" alt=""></span>
+    <span class="benda b5"><img class="gbr" src="elemen5-garpu.png" alt=""></span>
+    <span class="benda b6"><img class="gbr" src="elemen6-lampu-ajaib.png" alt=""></span>
+    <span class="benda b7"><img class="gbr" src="elemen7-karpet.webp" alt=""></span>
+    <span class="benda b8"><img class="gbr" src="elemen8-apel.png" alt=""></span>
+    <span class="benda b9"><img class="gbr" src="elemen9-serbuk-peri.png" alt=""></span>
+    <span class="benda b10"><img class="gbr" src="elemen10-jam.png" alt=""></span>
+    <span class="benda b11"><img class="gbr" src="elemen11-salju.png" alt=""></span>
+    <span class="benda b12"><img class="gbr" src="elemen12-istana-es.webp" alt=""></span>
+    <span class="benda b13"><img class="gbr" src="elemen3-kereta-labu.png" alt=""></span>
+    <span class="benda b14"><img class="gbr" src="elemen9-serbuk-peri.png" alt=""></span>
+    <span class="benda b15"><img class="gbr" src="elemen11-salju.png" alt=""></span>
+    <span class="benda b16"><img class="gbr" src="elemen2-sepatu-kaca.png" alt=""></span>
+    <span class="benda b17"><img class="gbr" src="elemen8-apel.png" alt=""></span>
+    <span class="benda b18"><img class="gbr" src="elemen4-kerang.png" alt=""></span>
+    <span class="benda b19"><img class="gbr" src="elemen9-serbuk-peri.png" alt=""></span>
+    <span class="benda b20"><img class="gbr" src="elemen6-lampu-ajaib.png" alt=""></span>
+    <span class="benda b21"><img class="gbr" src="elemen1-mawar.png" alt=""></span>
+    <span class="benda b22"><img class="gbr" src="elemen11-salju.png" alt=""></span>
+    <span class="benda b23"><img class="gbr" src="elemen5-garpu.png" alt=""></span>
+    <span class="benda b24"><img class="gbr" src="elemen8-apel.png" alt=""></span>
+    <span class="benda b25"><img class="gbr" src="elemen9-serbuk-peri.png" alt=""></span>
+    <span class="benda b26"><img class="gbr" src="elemen7-karpet.webp" alt=""></span>
+    <span class="benda b27"><img class="gbr" src="elemen2-sepatu-kaca.png" alt=""></span>
+    <span class="benda b28"><img class="gbr" src="elemen10-jam.png" alt=""></span>
+  </div>
+
+  <div class="sampul" id="sampul">
+
+    <div class="cahaya"></div>
+
+    <div class="gerbang" aria-hidden="true">
+      <div class="daun kiri">
+        <span class="cincin"></span>
+        <span class="menara"></span>
+      </div>
+      <div class="daun kanan">
+        <span class="cincin"></span>
+        <span class="menara"></span>
+      </div>
+    </div>
+
+    <div class="sampul-isi">
+      <p class="sampul-label">SMP Santa Ursula Jakarta</p>
+      <p class="sampul-kecil">STS TIK Kelas 92</p>
+      <h1 class="sampul-judul">The Happiest Place on Earth</h1>
+      <button class="tombol-masuk" id="tombolMasuk" type="button">Buka Gerbangnya</button>
+      <p class="sampul-nama">Dibuat oleh Bev 92/5</p>
+    </div>
+
+  </div>
+
+  <div class="halaman">
+
+    <div class="hero-banner">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Dunia Penuh Keajaiban</h1>
+        <p class="hero-subtitle">Selamat datang di tempat di mana semua impian dan cerita menjadi kenyataan</p>
+      </div>
+    </div>
+
+    <div class="music-box">
+      <button class="btn-music" type="button" onclick="toggleMusic()">
+        <span id="music-icon">🎵</span> <span id="music-text">Putar musik latar</span>
+      </button>
+      <audio id="laguDisney" src="When You Wish Upon a Star.mp3.mpeg" loop></audio>
+    </div>
+
+    <header class="kepala">
+      <p class="tiket">TIKET MASUK DISNEYLAND · TIK KELAS 9</p>
+      <h1 class="judul">Disneyland</h1>
+      <p class="subjudul">Wisata Luar Negeri ★ Tempat di mana cerita jadi nyata ★</p>
+      <p class="penulis">Beverly Louisa Hidajat · Kelas 9.2 · No. Absen 5<br>SMP Santa Ursula Jakarta</p>
+    </header>
+
+    <nav class="isi-cepat">
+      <a href="#pendahuluan" data-pesan="Mulai dari sini ya!">Pendahuluan</a>
+      <a href="#sejarah" data-pesan="Cerita tahun 1955">Sejarah</a>
+      <a href="#california" data-pesan="Taman yang pertama">Disneyland California</a>
+      <a href="#wahana" data-pesan="Naik apa dulu?">Wahana</a>
+      <a href="#karakter" data-pesan="Ketemu Mickey!">Karakter</a>
+      <a href="#parade" data-pesan="Ada lampu dan musik">Parade</a>
+      <a href="#teknologi" data-pesan="Robot dan animatronik">Teknologi</a>
+      <a href="#tik" data-pesan="Efek keren dan Animasi">Teknologi di Disneyland</a>
+      <a href="#makanan" data-pesan="Perut bahagia">Makanan</a>
+      <a href="#suvenir" data-pesan="Bawa pulang kenangan">Suvenir</a>
+      <a href="#negara" data-pesan="Enam resor di dunia">Berbagai Negara</a>
+      <a href="#persiapan" data-pesan="Sebelum berangkat">Persiapan</a>
+      <a href="#manfaat" data-pesan="Apa yang didapat">Manfaat</a>
+      <a href="#pengalaman" data-pesan="Cerita Bev sendiri!">Pengalaman Bev</a>
+      <a href="#kesimpulan" data-pesan="Penutupnya">Kesimpulan</a>
+    </nav>
+
+    <div class="pita" aria-hidden="true">
+      <div class="pita-jalan">
+        <img src="wahana1.jpg.jpeg" alt=""><img src="parade1.jpg.jpeg" alt=""><img src="makanan1.jpg.jpeg" alt="">
+        <img src="negara3.jpg.jpeg" alt=""><img src="teknologi1.jpg.jpeg" alt=""><img src="suvenir1.jpg.jpeg" alt="">
+        <img src="negara4.jpg.jpeg" alt=""><img src="wahana3.jpg.jpeg" alt="">
+        <img src="wahana1.jpg.jpeg" alt=""><img src="parade1.jpg.jpeg" alt=""><img src="makanan1.jpg.jpeg" alt="">
+        <img src="negara3.jpg.jpeg" alt=""><img src="teknologi1.jpg.jpeg" alt=""><img src="suvenir1.jpg.jpeg" alt="">
+        <img src="negara4.jpg.jpeg" alt=""><img src="wahana3.jpg.jpeg" alt="">
+      </div>
+    </div>
+
+    <div class="pencari">
+      <input id="cari" type="text" autocomplete="off" placeholder="Cari di sini...">
+      <button class="atur" id="hapusCari" type="button">Tampilkan semua</button>
+      <p class="hasil-cari" id="hasilCari"></p>
+    </div>
+
+    <section id="pendahuluan">
+      <h2>Pendahuluan</h2>
+      <p>Wisata luar negeri merupakan salah satu kegiatan yang dapat memberikan pengalaman baru dan menyenangkan. Dengan mengunjungi tempat wisata di negara lain, seseorang tidak hanya dapat menikmati pemandangan dan hiburan, tetapi juga mengenal budaya, sejarah, teknologi, serta kebiasaan masyarakat di tempat tersebut. Salah satu destinasi wisata yang terkenal di seluruh dunia adalah Disneyland.</p>
+      <p>Bagi jutaan orang di seluruh dunia, Disneyland bukan sekadar taman hiburan, melainkan sebuah mesin waktu yang mengembalikan keajaiban masa kecil dalam sekejap. Disneyland merupakan taman hiburan yang dibuat berdasarkan karakter, cerita, dan dunia yang berasal dari Disney. Tempat ini menawarkan berbagai wahana, pertunjukan, parade, toko, restoran, serta pengalaman bertemu dengan karakter Disney. Disneyland dikenal sebagai salah satu destinasi wisata keluarga yang populer karena menawarkan hiburan untuk anak-anak, remaja, maupun orang dewasa.</p>
+      <p>Disneyland pertama kali dibuka di Anaheim, California, Amerika Serikat, pada tahun 1955. Sejak saat itu, konsep taman hiburan Disney berkembang ke berbagai negara. Saat ini, terdapat beberapa destinasi Disney di dunia, seperti Disneyland Resort di California, Walt Disney World Resort di Florida, Tokyo Disney Resort di Jepang, Disneyland Paris di Prancis, Hong Kong Disneyland, dan Shanghai Disney Resort di Tiongkok.</p>
+      <p>Dengan konsep yang menggabungkan hiburan, teknologi, kreativitas, dan cerita, Disneyland menjadi tempat wisata yang berbeda dari taman hiburan biasa.</p>
+    </section>
+
+    <figure class="foto foto-tukar">
+      <img class="depan" src="gambar1.jpg.jpeg" alt="Suasana taman Disneyland pada siang hari">
+      <img class="belakang" src="gambar1-hover.jpg.jpeg" alt="Suasana taman Disneyland pada malam hari">
+      <figcaption>Arahkan cursor ke image untuk melihat suasana malam di Disneyland</figcaption>
+    </figure>
+
+    <section id="sejarah">
+      <h2>Sejarah Disneyland</h2>
+      <p>Sejarah Disneyland berawal dari ide Walt Disney, seorang tokoh penting dalam perkembangan animasi dan industri hiburan. Walt Disney memiliki keinginan untuk menciptakan tempat di mana anak-anak dan orang dewasa dapat menikmati waktu bersama dalam lingkungan yang penuh imajinasi.</p>
+      <p>Pada masa itu, taman hiburan yang tersedia sering kali tidak dirancang untuk dinikmati seluruh anggota keluarga secara bersama-sama. Walt Disney kemudian memiliki gagasan untuk membuat taman yang bersih, aman, menarik, dan memiliki berbagai atraksi yang dapat dinikmati oleh orang dari berbagai usia.</p>
+      <p>Disneyland pertama dibangun di Anaheim, California. Taman tersebut resmi dibuka pada 17 Juli 1955. Pembukaannya menjadi sebuah peristiwa besar dan menarik perhatian masyarakat. Seiring berjalannya waktu, Disneyland terus berkembang dengan menambahkan berbagai wahana dan area baru.</p>
+      <p>Keberhasilan Disneyland kemudian membuat konsep taman hiburan Disney berkembang ke berbagai negara. Setiap lokasi memiliki ciri khas tersendiri, tetapi tetap mempertahankan unsur utama Disney, seperti karakter terkenal, cerita fantasi, dan suasana yang penuh imajinasi.</p>
+    </section>
+
+    <section id="california">
+      <h2>Disneyland California</h2>
+      <p>Disneyland di Anaheim, California, merupakan taman Disney pertama di dunia. Lokasinya berada di dekat Los Angeles sehingga mudah menjadi bagian dari perjalanan wisata di California.</p>
+      <p>Disneyland Resort terdiri dari dua taman utama, yaitu Disneyland Park dan Disney California Adventure Park. Disneyland Park merupakan taman yang lebih tradisional dengan berbagai area bertema Disney. Sementara itu, Disney California Adventure memiliki berbagai atraksi yang terinspirasi dari California dan cerita-cerita Disney serta Pixar.</p>
+      <p>Salah satu ikon paling terkenal di Disneyland Park adalah Sleeping Beauty Castle. Kastel tersebut sering menjadi latar foto bagi pengunjung dan menjadi salah satu simbol Disneyland.</p>
+      <p>Di Disneyland, pengunjung dapat menjelajahi berbagai area dengan tema yang berbeda. Setiap area memiliki dekorasi, musik, bangunan, toko, dan wahana yang disesuaikan dengan tema tersebut. Hal ini membuat pengunjung merasa seperti masuk ke dalam dunia cerita yang berbeda.</p>
+    </section>
+
+    <div class="kartu-fakta">
+      <span class="ikon">🏰</span>
+      <p>Disneyland pertama dibuka pada 17 Juli 1955 di Anaheim, California, dan sekarang konsepnya sudah ada di enam resor Disney di seluruh dunia.</p>
+    </div>
+
+    <section id="wahana">
+      <h2>Wahana di Disneyland</h2>
+
+      <div class="galeri-polaroid">
+        <figure class="polaroid"><img src="wahana1.jpg.jpeg" alt="Wahana bertema petualangan"><figcaption>Wahana petualangan</figcaption></figure>
+        <figure class="polaroid"><img src="wahana2.jpg.jpeg" alt="Wahana untuk keluarga"><figcaption>Wahana keluarga</figcaption></figure>
+        <figure class="polaroid"><img src="wahana3.jpg.jpeg" alt="Wahana dengan efek khusus"><figcaption>Wahana efek khusus</figcaption></figure>
+      </div>
+      <p>Salah satu alasan utama wisatawan mengunjungi Disneyland adalah berbagai wahana yang tersedia. Wahana di Disneyland tidak hanya mengandalkan kecepatan atau ketinggian, tetapi juga menggunakan cerita dan teknologi untuk menciptakan pengalaman yang menarik.</p>
+      <p>Beberapa wahana memiliki tema petualangan, sementara lainnya menggunakan karakter dan cerita dari film Disney. Ada juga wahana yang cocok untuk keluarga sehingga anak-anak dapat menikmatinya bersama orang tua.</p>
+      <p>Wahana seperti Pirates of the Caribbean membawa pengunjung ke dunia bajak laut dengan dekorasi dan efek khusus. Ada pula “it’s a small world”, sebuah atraksi yang membawa pengunjung dalam perjalanan melalui berbagai representasi budaya dunia.</p>
+      <p>Untuk pengunjung yang menyukai petualangan, tersedia berbagai wahana dengan suasana yang lebih menegangkan. Sementara itu, anak-anak dapat menikmati atraksi yang lebih santai dan sesuai dengan usia mereka. Keragaman wahana membuat pengunjung dapat memilih aktivitas sesuai dengan minat dan tingkat kenyamanan masing-masing.</p>
+    </section>
+
+    <figure class="foto foto-bayangan">
+      <img src="gambar2.jpg.jpeg" alt="Wahana dan dekorasi di dalam taman Disneyland">
+      <figcaption>Setiap area punya dekorasi, musik, dan bangunan dengan tema sendiri</figcaption>
+    </figure>
+
+    <section id="karakter">
+      <h2>Karakter Disney</h2>
+      <p>Salah satu hal yang membedakan Disneyland dari banyak tempat wisata lainnya adalah kesempatan untuk bertemu dengan karakter Disney. Pengunjung dapat melihat karakter terkenal seperti Mickey Mouse, Minnie Mouse, Donald Duck, Goofy, dan berbagai karakter lainnya.</p>
+
+      <div class="stiker">
+        <figure><img src="karakter1.png" alt="Mickey Mouse"><figcaption>Mickey Mouse</figcaption></figure>
+        <figure><img src="karakter2.png" alt="Minnie Mouse"><figcaption>Minnie Mouse</figcaption></figure>
+        <figure><img src="karakter3.png" alt="Donald Duck"><figcaption>Donald Duck</figcaption></figure>
+        <figure><img src="karakter4.png" alt="Goofy"><figcaption>Goofy</figcaption></figure>
+      </div>
+
+      <p>Karakter-karakter tersebut merupakan bagian penting dari pengalaman Disneyland. Pengunjung dapat berfoto bersama karakter atau melihat mereka dalam berbagai pertunjukan dan parade.</p>
+      <p>Bagi anak-anak, bertemu karakter yang sebelumnya hanya mereka lihat melalui film atau buku dapat menjadi pengalaman yang sangat berkesan. Bagi orang dewasa, hal tersebut juga dapat mengingatkan mereka pada cerita dan karakter yang sudah dikenal sejak kecil.</p>
+      <p>Kehadiran karakter Disney juga menunjukkan bagaimana sebuah tokoh fiksi dapat berkembang menjadi bagian dari budaya populer dan industri pariwisata.</p>
+    </section>
+
+    <section id="parade">
+      <h2>Parade dan Pertunjukan</h2>
+
+      <div class="galeri-dua">
+        <figure><img src="parade1.jpg.jpeg" alt="Parade siang hari di Disneyland"><figcaption>Parade siang hari</figcaption></figure>
+        <figure><img src="parade2.jpg.jpeg" alt="Pertunjukan cahaya pada malam hari"><figcaption>Pertunjukan malam</figcaption></figure>
+      </div>
+      <p>Selain wahana, Disneyland terkenal dengan parade dan pertunjukannya. Parade biasanya menampilkan kendaraan atau kereta bertema Disney yang dihiasi dekorasi menarik. Para karakter Disney juga ikut hadir dalam parade bersama para penari dan penghibur.</p>
+      <p>Pertunjukan tersebut dirancang dengan memperhatikan musik, kostum, pencahayaan, koreografi, dan dekorasi. Semua unsur tersebut digabungkan untuk menciptakan sebuah pengalaman yang menarik bagi penonton.</p>
+      <p>Pada waktu tertentu, Disneyland juga menyelenggarakan pertunjukan malam yang menggunakan cahaya, musik, proyeksi, dan efek khusus. Pertunjukan seperti ini menunjukkan bagaimana teknologi dapat digunakan untuk meningkatkan pengalaman wisata.</p>
+      <p>Bagi wisatawan, menyaksikan parade dan pertunjukan dapat menjadi salah satu kegiatan yang tidak boleh dilewatkan karena memberikan suasana yang berbeda dari sekadar menaiki wahana.</p>
+    </section>
+
+    <section id="teknologi">
+      <h2>Teknologi di Disneyland</h2>
+
+      <figure class="foto-lebar">
+        <img src="teknologi1.jpg.jpeg" alt="Animatronik dan efek cahaya di dalam wahana">
+        <figcaption>Animatronik dan tata cahaya membuat wahana terasa hidup</figcaption>
+      </figure>
+      <p>Teknologi merupakan salah satu bagian penting dalam pengembangan Disneyland. Sebagai taman hiburan modern, Disneyland menggunakan berbagai teknologi untuk membuat wahana dan pertunjukannya lebih menarik.</p>
+      <p>Salah satu contohnya adalah penggunaan animatronik, yaitu teknologi yang memungkinkan karakter atau objek bergerak secara otomatis sehingga terlihat lebih hidup. Teknologi ini banyak digunakan dalam berbagai atraksi bertema Disney.</p>
+      <p>Selain itu, teknologi pencahayaan, suara, proyeksi, dan efek khusus juga digunakan untuk menciptakan suasana tertentu. Misalnya, sebuah wahana dapat membawa pengunjung ke dalam suasana hutan, laut, luar angkasa, atau dunia fantasi dengan bantuan kombinasi teknologi tersebut.</p>
+      <p>Teknologi juga digunakan dalam pengelolaan taman. Sistem digital dapat membantu pengunjung memperoleh informasi mengenai wahana, jadwal pertunjukan, lokasi restoran, dan berbagai layanan lainnya. Hal ini menunjukkan bahwa teknologi informasi dan komunikasi atau TIK memiliki peran penting dalam industri pariwisata modern.</p>
+    </section>
+
+    <section id="tik">
+      <h2>Disneyland dan TIK</h2>
+      <p>Dalam bidang TIK, Disneyland dapat menjadi contoh bagaimana teknologi digunakan dalam sebuah tempat wisata. Pengunjung dapat menggunakan aplikasi resmi untuk melihat peta taman, mencari lokasi tertentu, melihat jadwal pertunjukan, dan memperoleh informasi mengenai berbagai atraksi.</p>
+      <p>Teknologi digital juga membantu pengelola mengatur jumlah pengunjung dan memberikan informasi secara lebih cepat. Penggunaan sistem digital dapat membuat pengalaman wisata menjadi lebih praktis karena pengunjung tidak perlu selalu mencari informasi secara manual.</p>
+      <p>Selain itu, teknologi digunakan dalam proses pembuatan wahana. Sensor, komputer, sistem suara, animasi, pencahayaan, dan berbagai perangkat elektronik dapat bekerja bersama untuk menciptakan pengalaman yang interaktif.</p>
+      <p>Perkembangan teknologi juga memungkinkan taman hiburan menghadirkan pengalaman yang semakin realistis. Wahana modern dapat menggunakan layar digital, proyeksi, efek suara, serta sistem gerak untuk membuat pengunjung merasa seperti berada di dalam sebuah cerita. Dengan demikian, Disneyland dapat menjadi contoh nyata hubungan antara teknologi, kreativitas, dan industri pariwisata.</p>
+    </section>
+
+    <section id="makanan">
+      <h2>Makanan di Disneyland</h2>
+
+      <div class="galeri-bulat">
+        <figure><img src="makanan1.jpg.jpeg" alt="Camilan berbentuk karakter"><figcaption>Camilan</figcaption></figure>
+        <figure><img src="makanan2.jpg.jpeg" alt="Makanan utama di restoran"><figcaption>Makanan utama</figcaption></figure>
+        <figure><img src="makanan3.jpg.jpeg" alt="Makanan penutup dan minuman"><figcaption>Makanan penutup</figcaption></figure>
+      </div>
+      <p>Selain wahana dan pertunjukan, makanan juga menjadi bagian dari pengalaman mengunjungi Disneyland. Di dalam taman terdapat berbagai restoran, kafe, dan tempat makan yang menawarkan beragam jenis makanan dan minuman.</p>
+      <p>Banyak makanan di Disneyland memiliki bentuk atau desain yang terinspirasi dari karakter Disney. Hal tersebut membuat makanan tidak hanya menjadi kebutuhan, tetapi juga bagian dari pengalaman wisata.</p>
+      <p>Pengunjung dapat menemukan berbagai jenis makanan ringan, makanan utama, makanan penutup, serta minuman. Pilihan makanan juga dapat berbeda tergantung lokasi Disneyland yang dikunjungi karena setiap negara memiliki kebiasaan dan budaya kuliner yang berbeda. Bagi wisatawan, mencoba makanan khas di Disneyland dapat menjadi salah satu kegiatan yang menyenangkan selama berkunjung.</p>
+    </section>
+
+    <section id="suvenir">
+      <h2>Belanja Suvenir</h2>
+
+      <div class="galeri-polaroid">
+        <figure class="polaroid"><img src="suvenir1.jpg.jpeg" alt="Toko suvenir di dalam taman"><figcaption>Toko suvenir</figcaption></figure>
+        <figure class="polaroid"><img src="suvenir2.jpg.jpeg" alt="Boneka dan aksesori karakter"><figcaption>Boneka dan aksesori</figcaption></figure>
+      </div>
+      <p>Disneyland juga memiliki banyak toko yang menjual berbagai suvenir. Pengunjung dapat menemukan pakaian, boneka, aksesori, alat tulis, dekorasi, dan berbagai barang lainnya dengan karakter Disney.</p>
+      <p>Suvenir sering dibeli sebagai kenang-kenangan setelah melakukan perjalanan. Beberapa barang juga hanya tersedia di lokasi tertentu sehingga dapat menjadi sesuatu yang menarik bagi kolektor.</p>
+      <p>Toko-toko di Disneyland biasanya dirancang sesuai dengan suasana taman sehingga pengalaman berbelanja tetap terasa seperti bagian dari dunia Disney. Namun, pengunjung sebaiknya membuat anggaran sebelum membeli suvenir. Karena banyak barang yang menarik, seseorang dapat dengan mudah membeli lebih banyak daripada yang direncanakan.</p>
+    </section>
+
+    <section id="negara">
+      <h2>Disneyland di Berbagai Negara</h2>
+
+      <div class="kartu-negara">
+        <a class="negara"><img src="negara1.jpg.jpeg" alt="Disneyland Resort California"><span>California<small>Amerika Serikat, 1955</small></span></a>
+        <a class="negara"><img src="negara2.jpg.jpeg" alt="Walt Disney World Florida"><span>Florida<small>Amerika Serikat, 1971</small></span></a>
+        <a class="negara"><img src="negara3.jpg.jpeg" alt="Tokyo Disney Resort"><span>Tokyo<small>Jepang, 1983</small></span></a>
+        <a class="negara"><img src="negara4.jpg.jpeg" alt="Disneyland Paris"><span>Paris<small>Prancis, 1992</small></span></a>
+        <a class="negara"><img src="negara5.jpg.jpeg" alt="Hong Kong Disneyland"><span>Hong Kong<small>Hong Kong, 2005</small></span></a>
+        <a class="negara"><img src="negara6.jpg.jpeg" alt="Shanghai Disney Resort"><span>Shanghai<small>Tiongkok, 2016</small></span></a>
+      </div>
+      <p>Konsep Disneyland telah berkembang ke berbagai wilayah di dunia. Setiap destinasi memiliki karakteristik dan budaya lokal yang berbeda.</p>
+      <p>Tokyo Disney Resort berada di Jepang dan menjadi salah satu destinasi Disney yang terkenal di Asia. Disneyland Paris berada di Prancis dan menawarkan pengalaman Disney dengan nuansa Eropa. Hong Kong Disneyland berada di Hong Kong, sedangkan Shanghai Disney Resort berada di Tiongkok.</p>
+      <p>Walaupun memiliki perbedaan, setiap taman tetap mempertahankan identitas Disney. Karakter seperti Mickey Mouse tetap menjadi bagian penting, sementara desain, makanan, acara, dan beberapa atraksi dapat disesuaikan dengan budaya setempat. Hal tersebut menunjukkan bagaimana sebuah konsep hiburan internasional dapat beradaptasi dengan budaya yang berbeda.</p>
+    </section>
+
+    <section id="persiapan">
+      <h2>Persiapan Sebelum Berkunjung</h2>
+      <p>Sebelum mengunjungi Disneyland, wisatawan perlu melakukan beberapa persiapan. Hal pertama yang perlu diperhatikan adalah memilih lokasi Disneyland yang ingin dikunjungi karena setiap destinasi memiliki aturan, atraksi, dan suasana yang berbeda.</p>
+      <p>Wisatawan juga perlu mempersiapkan dokumen perjalanan jika Disneyland berada di luar negara tempat tinggal. Selain itu, tiket masuk sebaiknya direncanakan terlebih dahulu.</p>
+      <p>Karena Disneyland memiliki area yang luas, pengunjung juga sebaiknya membuat daftar wahana dan pertunjukan yang ingin dikunjungi. Dengan begitu, waktu dapat digunakan dengan lebih efektif.</p>
+      <p>Cuaca juga perlu diperhatikan. Jika berkunjung pada musim panas, pengunjung perlu mempersiapkan pakaian yang nyaman dan memastikan kebutuhan minum tercukupi. Jika berkunjung pada musim dingin, pakaian yang sesuai diperlukan agar tetap nyaman selama berada di luar ruangan.</p>
+    </section>
+
+    <section id="manfaat">
+      <h2>Manfaat Mengunjungi Disneyland</h2>
+      <p>Mengunjungi Disneyland tidak hanya memberikan hiburan, tetapi juga dapat memberikan berbagai pengalaman. Wisatawan dapat belajar mengenai budaya negara tempat Disneyland berada, melihat bagaimana teknologi digunakan dalam industri hiburan, dan mengamati bagaimana sebuah perusahaan menciptakan pengalaman bagi pengunjung.</p>
+      <p>Bagi pelajar, perjalanan ke Disneyland juga dapat menjadi kesempatan untuk mempelajari penerapan TIK dalam kehidupan nyata. Mulai dari aplikasi, sistem informasi, animatronik, hingga teknologi audio dan visual, banyak teknologi dapat ditemukan dalam satu tempat.</p>
+      <p>Selain itu, perjalanan bersama keluarga atau teman dapat membantu menciptakan kenangan dan pengalaman bersama. Mengunjungi tempat baru juga dapat membuat seseorang menjadi lebih terbuka terhadap lingkungan dan budaya yang berbeda.</p>
+    </section>
+
+    <section id="pengalaman">
+      <h2>Beverly’s Disneyland Experience</h2>
+
+      <div class="pengalaman">
+        <figure class="foto-bev">
+          <img src="foto-beverly.jpg.jpeg" alt="Beverly di Hong Kong Disneyland">
+          <figcaption>Beverly di Hong Kong Disneyland<br>Hong Kong Disneyland, menjelang Tahun Baru | 2024</figcaption>
+        </figure>
+
+        <div class="cerita">
+          <p>Salah satu pengalaman wisata yang paling berkesan bagi saya adalah ketika mengunjungi Hong Kong Disneyland saat Tahun Baru 2023-2024! Untuk menuju Disneyland, saya naik MTR Disney, dan dari perjalanan saja sudah terasa seru karena keretanya memiliki berbagai desain bertema Disney. Saat sampai, saya langsung kagum melihat Disney Castle yang ternyata sangat besar dan jauh lebih indah ketika dilihat secara langsung. Karena saya datang saat menjelang Tahun Baru, dekorasi Natal juga masih ada di berbagai tempat. Lampu-lampu dan hiasan Natal membuat suasana Disneyland terasa semakin meriah dan magical.</p>
+          <p>Selama di sana, saya mengunjungi berbagai area dan mencoba beberapa wahana seperti Dumbo the Flying Elephant, Frozen Ever After, dan Hyperspace Mountain. Dumbo the Flying Elephant terasa menyenangkan dan cocok untuk menikmati pemandangan Disneyland dari atas. Frozen Ever After juga sangat seru karena dekorasi dan suasananya membuat saya seperti masuk langsung ke dunia Frozen. Sementara itu, Hyperspace Mountain lebih menegangkan karena wahananya cepat, gelap, dan memiliki tema luar angkasa. Selain naik wahana, saya juga berkeliling, melihat berbagai dekorasi dan karakter Disney, serta mengambil banyak foto untuk mengabadikan momen.</p>
+          <p>Tentu saja, saya tidak pulang dengan tangan kosong! Saya membeli beberapa plushies Disney sebagai oleh-oleh dan kenang-kenangan. Menurut saya, hal yang paling membuat Hong Kong Disneyland spesial adalah setiap detailnya terasa dibuat dengan sangat baik, mulai dari wahana, musik, dekorasi, sampai suasana di setiap areanya. Perpaduan suasana Tahun Baru, dekorasi Natal, Disney Castle yang megah, dan berbagai wahana seru membuat pengalaman ini menjadi salah satu perjalanan yang paling menyenangkan dan berkesan bagi saya. Saya pasti ingin mengunjungi Disneyland lagi suatu hari nanti!</p>
+        </div>
+      </div>
+
+      <div class="galeri-polaroid">
+        <figure class="polaroid"><img src="bev4.jpg.jpeg" alt="MRT Disney bertema Disney"><figcaption>MRT Disney</figcaption></figure>
+        <figure class="polaroid"><img src="bev1.jpg.jpeg" alt="Disney Castle di Hong Kong Disneyland"><figcaption>Disney Castle</figcaption></figure>
+        <figure class="polaroid"><img src="bev2.jpg.jpeg" alt="Wahana Frozen Ever After"><figcaption>Frozen Ever After</figcaption></figure>
+        <figure class="polaroid"><img src="bev5.jpg.jpeg" alt="Foto Bev di taman Disneyland"><figcaption>Bev di Taman Disneyland</figcaption></figure>
+        <figure class="polaroid"><img src="bev3.jpg.jpeg" alt="Plushies Disney yang dibeli sebagai oleh-oleh"><figcaption>Plushies oleh-oleh</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="kesimpulan">
+      <h2>Kesimpulan</h2>
+      <p>Disneyland merupakan salah satu destinasi wisata luar negeri yang terkenal dan memiliki daya tarik bagi berbagai kelompok usia. Tempat ini menawarkan berbagai wahana, pertunjukan, parade, karakter Disney, restoran, serta toko suvenir yang membuat pengunjung dapat menikmati pengalaman wisata secara lengkap.</p>
+      <p>Sejak Disneyland pertama dibuka di California pada tahun 1955, konsep taman hiburan Disney telah berkembang ke berbagai negara. Setiap lokasi memiliki ciri khas masing-masing, tetapi tetap mempertahankan unsur utama Disney berupa cerita, karakter, kreativitas, dan imajinasi.</p>
+      <p>Salah satu hal yang menarik dari Disneyland adalah penggunaan teknologi. TIK memiliki peran besar dalam menciptakan wahana, mengatur informasi, meningkatkan pelayanan, dan membuat pertunjukan menjadi lebih menarik. Penggunaan animatronik, sistem pencahayaan, suara, proyeksi, aplikasi digital, dan berbagai teknologi lainnya menunjukkan bagaimana teknologi dapat digabungkan dengan kreativitas untuk menciptakan pengalaman wisata.</p>
+      <p>Disneyland juga memperlihatkan bahwa pariwisata tidak hanya berkaitan dengan keindahan suatu tempat. Sebuah destinasi wisata dapat menjadi tempat untuk belajar, mengenal budaya, menikmati seni, dan melihat penerapan teknologi secara langsung.</p>
+      <p>Dengan berbagai pilihan aktivitas yang tersedia, Disneyland menjadi salah satu tempat wisata luar negeri yang menarik untuk dikunjungi. Bagi wisatawan, terutama pelajar dan keluarga, perjalanan ke Disneyland dapat memberikan pengalaman yang menyenangkan sekaligus menambah wawasan mengenai budaya, hiburan, teknologi, dan perkembangan industri pariwisata di dunia.</p>
+    </section>
+
+    <footer class="kaki">
+      <p>Penilaian STS Informatika Kelas 9 · Tahun Ajaran 2026-2027<br>Beverly Louisa Hidajat · SMP Santa Ursula Jakarta</p>
+    </footer>
+
+  </div>
+
+  <button class="ke-atas" id="keAtas" type="button" title="Kembali ke atas">↑</button>
+
+  <script>
+    var sudahDibuka = false;
+
+    function bukaHalaman() {
+      if (sudahDibuka) return;
+      sudahDibuka = true;
+
+      var sampul = document.getElementById('sampul');
+      sampul.classList.add('terbuka');
+
+      setTimeout(function () {
+        sampul.classList.add('hilang');
+        document.body.classList.remove('terkunci');
+        document.body.classList.add('dibuka');
+      }, 1500);
+    }
+
+    document.getElementById('tombolMasuk').addEventListener('click', bukaHalaman);
+    document.getElementById('sampul').addEventListener('click', bukaHalaman);
+
+    var bagian = document.querySelectorAll('section, .foto, .kartu-fakta, .pita');
+    bagian.forEach(function (el) { el.classList.add('reveal'); });
+
+    var pengamat = new IntersectionObserver(function (daftar) {
+      daftar.forEach(function (item) {
+        if (item.isIntersecting) {
+          item.target.classList.add('muncul');
+          pengamat.unobserve(item.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    bagian.forEach(function (el) { pengamat.observe(el); });
+
+    var tombolAtas = document.getElementById('keAtas');
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 400) { tombolAtas.classList.add('tampil'); }
+      else { tombolAtas.classList.remove('tampil'); }
+    });
+
+    tombolAtas.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    var bentukLetik = ['✨', '💖', '⭐', '💫', '🌟'];
+
+    document.addEventListener('click', function (e) {
+      for (var i = 0; i < 6; i++) {
+        var letik = document.createElement('span');
+        letik.className = 'letik';
+        letik.textContent = bentukLetik[Math.floor(Math.random() * bentukLetik.length)];
+        letik.style.left = e.clientX + 'px';
+        letik.style.top = e.clientY + 'px';
+        letik.style.setProperty('--arahX', (Math.random() * 160 - 80) + 'px');
+        letik.style.setProperty('--arahY', (-Math.random() * 120 - 40) + 'px');
+        letik.style.fontSize = (12 + Math.random() * 14) + 'px';
+        letik.style.animationDelay = (i * 0.04) + 's';
+        document.body.appendChild(letik);
+        setTimeout(function (el) { return function () { el.remove(); }; }(letik), 1400);
+      }
+    });
+
+    document.getElementById('saklarMode').addEventListener('click', function () {
+      document.body.classList.toggle('malam');
+      var malam = document.body.classList.contains('malam');
+      this.innerHTML = malam ? '🌙 Mode Malam' : '🍓 Mode Siang';
+    });
+
+    var kolomCari = document.getElementById('cari');
+    var kabar = document.getElementById('hasilCari');
+    var semuaBagian = document.querySelectorAll('.halaman section');
+    var semuaFoto = document.querySelectorAll('.halaman > .foto, .halaman > .kartu-fakta');
+
+    function jalankanCari() {
+      var kata = kolomCari.value.toLowerCase().trim();
+      var ketemu = 0;
+
+      semuaBagian.forEach(function (bagian) {
+        var cocok = kata === '' || bagian.textContent.toLowerCase().indexOf(kata) > -1;
+        bagian.style.display = cocok ? '' : 'none';
+        if (cocok) ketemu++;
+      });
+
+      semuaFoto.forEach(function (el) { el.style.display = kata === '' ? '' : 'none'; });
+
+      if (kata === '') { kabar.textContent = ''; }
+      else if (ketemu > 0) { kabar.innerHTML = '✨ Ada ' + ketemu + ' bagian yang cocok!'; }
+      else { kabar.innerHTML = '😕 Belum ada yang cocok, coba kata lain.'; }
+    }
+
+    var jedaCari;
+    kolomCari.addEventListener('input', function () {
+      clearTimeout(jedaCari);
+      jedaCari = setTimeout(jalankanCari, 250);
+    });
+
+    document.getElementById('hapusCari').addEventListener('click', function () {
+      kolomCari.value = '';
+      jalankanCari();
+    });
+
+    var langit = document.querySelector('.langit');
+    var jedaGoyang;
+
+    window.addEventListener('scroll', function () {
+      if (!langit) return;
+
+      langit.style.transform = 'translateY(' + (window.scrollY * -0.04) + 'px)';
+      langit.classList.add('goyang');
+
+      clearTimeout(jedaGoyang);
+      jedaGoyang = setTimeout(function () { langit.classList.remove('goyang'); }, 400);
+    });
+
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        document.getElementById('pemuat').classList.add('selesai');
+      }, 1100);
+    });
+
+    function toggleMusic() {
+      var audio = document.getElementById('laguDisney');
+      var ikon = document.getElementById('music-icon');
+      var teks = document.getElementById('music-text');
+
+      if (audio.paused) {
+        audio.play();
+        ikon.innerHTML = '⏸️';
+        teks.textContent = 'Hentikan musik';
+      } else {
+        audio.pause();
+        ikon.innerHTML = '🎵';
+        teks.textContent = 'Putar musik latar';
+      }
+    }
+  </script>
+
+    <!--Membuat Footer-->
+        <footer class="footer">
+            <p>BEVY IX-2/05</p>
+        </footer>
+</body>
+</html>

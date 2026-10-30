@@ -1,61 +1,241 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-</head>
-<body>
-<div class="header">
-<h1>Header</h1>
-<p>Resize the browser window to see the
-responsive effect.</p>
-</div>
-<div class="topnav">
+<html>
+    <head>
+        <title>Layout Website</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Membuat Header-->
+        <div class="header">
+            <h5>TUGAS HTML & CSS</h5>
+        </div>
+        <!--Membuat Menu-->
+        <div class="topnav">
+                <a href="index.html">BIODATA</a>
+                <a href="table.html">TABLE</a>
+                <a href="list.html">LIST</a>
+                <a href="sts.html">STS</a>
+        </div>
+        <!--Membuat Konten-->
+        <h2>Selamat Datang</h2>
+        <h1>BIODATA DIRI</h1>
+        <div class="top-row">
+            <img src="Screenshot 2026-08-10 190802.png" alt="Bev" class="foto">
+            <div class="info">
+                <p> <strong>Nama: </strong>Beverly Louisa Hidajat<br>
+                       <strong> Tempat Lahir:</strong> Jakarta, Indonesia<br>
+                       <strong> Tanggal Lahir:</strong> 13 Juli 2012<br>
+                       <strong>Email:</strong> beverly_10113@smp.santaursulajakarta.sch.id<br>
+                       <strong>Zodiak:</strong> Kepiting (Cancer) <br>
+                       <strong>  Hobi:</strong> Menari dan Bermain Musik  <br>
+                       <strong>  Quote:</strong> “Be the change you wish to see in the world.” - Mahatma Gandhi <br>
+                </p>
+            </div>
+        </div>
+            <p class="makanan">Makanan Favorit</p>
+            <div class="makan-list">
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="steak.jpg" alt="Steak" class="foodimg">
+                    </div>
+                    <p>Steak</p>
+                </div>
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="sushi.jpg" alt="Sushi" class="foodimg">
+                    </div>
+                    <p>Sushi</p>
+                </div>
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="Xiao Long Bao.jpg" alt="Xiao Long Bao" class="foodimg">
+                    </div>
+                    <p>Xiao Long Bao</p>
+                </div>
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="watermelon.jpg" alt="Watermelon" class="foodimg">
+                    </div>
+                    <p>Semangka</p>
+                </div>
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="Mint Chocolate Chip.jpg" alt="Mint-Choco Chip" class="foodimg">
+                    </div>
+                    <p>Mint-Choco Chip</p>
+                </div>
+                <div class="food-item">
+                    <div class="food-thumb">
+                        <img src="Tteokbokki.jpg" alt="Tteokbokki" class="foodimg">
+                </div>
+                <p>Tteokbokki</p>
+            </div>
+        </div>  
 
-* {
-box-sizing: border-box;
-}
+<p class="minatbakat">Minat dan Bakat</p>
+            <div class="minat-list">
+                <div class="minat-item">
+                    <div class="minat-thumb">
+                        <img src="Public Speaking.jpg" alt="Public Speaking" class="minat">
+                    </div>
+                    <p>Public Speaking</p>
+                </div>
+                <div class="minat-item">
+                    <div class="minat-thumb">
+                        <img src="menulis.jpg" alt="Menulis" class="minat">
+                    </div>
+                    <p>Menulis</p>
+                </div>
+                <div class="minat-item">
+                    <div class="minat-thumb">
+                        <img src="menari.jpg" alt="Menari" class="minat">
+                    </div>
+                    <p>Menari</p>
+                </div>
+                <div class="minat-item">
+                    <div class="minat-thumb">
+                        <img src="musik.jpg" alt="Musik" class="minat">
+                    </div>
+                    <p>Musik</p>
+                </div>
 
-body {
-margin: 0;
-}
+                <div class="minat-item">
+                    <div class="minat-thumb">
+                        <img src="badminton.jpg" alt="badminton" class="minat">
+                    </div>
+                    <p>Bulu Tangkis</p>
+                </div>
 
-/* Style the header */
-.header{
-background-color: #f1f1f1;
-padding: 20px;
-}
+                    </div>
 
-<a href="#">Link</a>
-<a href="#">Link</a>
-<a href="#">Link</a>
+<p class="organisasi">Artis Favorit</p>
+            <div class="org-list">
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="Bruno.jpg" alt="Bruno Mars" class="org">
+                    </div>
+                    <p>Bruno Mars</p>
+                </div>
+
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="Daniel.jpg" alt="Daniel Caesar" class="org">
+                    </div>
+                    <p>Daniel Caesar</p>
+                </div>
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="Justin.jpg" alt="Justin Bieber" class="org">
+                    </div>
+                    <p>Justin Bieber</p>
+                </div>
+
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="SZA.jpg" alt="SZA" class="org">
+                    </div>
+                    <p>SZA</p>
+                </div>
+
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="billy.jpg" alt="Taylor Swift" class="org">
+                    </div>
+                    <p> Billy Joel </p>
+                    </div>
+
+                <div class="org-item">
+                    <div class="org-thumb">
+                        <img src="OASIS.jpg" alt="OASIS" class="org">
+                    </div>
+                    <p>OASIS</p>
+                </div>
+
+                    </div>
+
+<p class="keahlian"> Keahlian </p>
+
+<div class="skill-list">
+
+    <div class="skill">
+        <p>Public Speaking</p>
+        <div class="bar">
+            <div class="fill" style="width: 90%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Menulis Esai</p>
+        <div class="bar">
+            <div class="fill" style="width: 85%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Bahasa Inggris</p>
+        <div class="bar">
+            <div class="fill" style="width: 95%;"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Bermain Musik</p>
+        <div class="bar">
+            <div class="fill" style="width: 75%;"></div>
+        </div>
+    </div>
+
 </div>
-<div class="row">
-<div class="column side">
-<h2>Side</h2>
-<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit..</p>
+
+
+<p class="tempatimpian">Universitas Impian</p>
+
+<div class="carousel">
+    <div class="tempat">
+
+        <div class="tempati">
+            <img src="oxford.jpg" alt="Reading">
+            <p>Oxford</p>
+        </div>
+        <div class="tempati">
+            <img src="cambridge.jpg" alt="Sleeping">
+            <p>Cambridge</p>
+        </div>
+        <div class="tempati">
+            <img src="yale.jpg" alt="Eating">
+            <p>Yale</p>
+        </div>
+        <div class="tempati">
+            <img src="MIT.jpg" alt="Writing">
+            <p>MIT</p>
+        </div>
+
+        <div class="tempati">
+            <img src="Tsinghua.jpg" alt="Reading">
+            <p>Tsinghua</p>
+        </div>
+        <div class="tempati">
+            <img src="Peking.jpg" alt="Sleeping">
+            <p>Peking</p>
+        </div>
+        <div class="tempati">
+            <img src="NYU.jpg" alt="Eating">
+            <p>New York University</p>
+        </div>
+        <div class="tempati">
+            <img src="harvard.jpg" alt="Writing">
+            <p>Harvard</p>
+        </div>
+
+    </div>
 </div>
-<div class="column middle">
-<h2>Main Content</h2>
-<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Maecenas sit amet pretium urna.
-Vivamus venenatis velit nec neque ultricies, eget
-elementum magna tristique. Quisque vehicula,
-risus eget aliquam placerat, purus leo tincidunt
-eros, eget luctus quam orci in velit. Praesent
-scelerisque tortor sed accumsan convallis.</p>
-<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Maecenas sit amet pretium urna.
-Vivamus venenatis velit nec neque ultricies, eget
-elementum magna tristique. Quisque vehicula,
-risus eget aliquam placerat, purus leo tincidunt
-eros, eget luctus quam orci in velit. Praesent
-scelerisque tortor sed accumsan convallis.</p>
-</div>
-<div class="column side">
-<h2>Side</h2>
-<p>Lorem ipsum dolor sit amet, consectetur
-adipiscing elit..</p>
-</div>
-</div>
-<div class="footer">
+
+        <!--Membuat Footer-->
+        <footer class="footer">
+            <p>BEVY IX-2/05</p>
+        </footer>
+    </body>
+</html>
